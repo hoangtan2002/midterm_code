@@ -7,12 +7,12 @@
 #include "fsm_manual.h"
 
 void fsmState1(){
-	if(isButton2Pressed() == 1){
+	if(isButton2Pressed() == 1 && isButton2LongPressed() == 0){
 		ledBuffer++;
 		if(ledBuffer == 10) ledBuffer = 1;
 		timeOut = 10;
 	}
-	if(isButton3Pressed() == 1){
+	if(isButton3Pressed() == 1 && isButton2LongPressed() == 0){
 		ledBuffer--;
 		if(ledBuffer == 0) ledBuffer = 9;
 		timeOut = 10;
