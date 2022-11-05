@@ -8,3 +8,7 @@
 #include "global.h"
 
 int ledBuffer = 1;
+
+int timeOut = 10;
+
+int isTimedOut = 0;
