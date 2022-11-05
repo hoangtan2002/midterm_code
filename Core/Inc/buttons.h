@@ -17,6 +17,10 @@ extern int button1_flag;
 extern int button2_flag;
 extern int button3_flag;
 
+extern int longButton1_flag;
+extern int longButton2_flag;
+extern int longButton3_flag;
+
 int isButton1Pressed();
 int isButton2Pressed();
 int isButton3Pressed();
