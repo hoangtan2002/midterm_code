@@ -10,4 +10,8 @@
 
 extern int ledBuffer;
 
+extern int timeOut;
+
+extern int isTimedOut;
+
 #endif /* INC_GLOBAL_H_ */

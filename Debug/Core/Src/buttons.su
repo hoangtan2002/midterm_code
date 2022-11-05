@@ -6,4 +6,4 @@ buttons.c:50:5:isButton2LongPressed	4	static
 buttons.c:57:5:isButton3LongPressed	4	static
 buttons.c:66:6:subKeyProcess	16	static
 buttons.c:82:6:subLongKeyProcess	16	static
-buttons.c:98:6:getKeyInput1	8	static
+buttons.c:101:6:getKeyInput1	8	static

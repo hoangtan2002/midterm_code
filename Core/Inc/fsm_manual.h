@@ -16,6 +16,7 @@
 void fsmState1();
 void fsmState2();
 void fsmState3();
+void countTimeOut();
 
 
 #endif /* INC_FSM_MANUAL_H_ */

@@ -83,12 +83,15 @@ void subLongKeyProcess(int n){
 	switch(n){
 		case 1:
 			longButton1_flag = 1;
+			button1_flag = 0;
 			break;
 		case 2:
 			longButton2_flag = 1;
+			button2_flag = 0;
 			break;
 		case 3:
 			longButton3_flag = 1;
+			button3_flag = 0;
 			break;
 		default:
 			break;
@@ -123,7 +126,7 @@ void getKeyInput1(){
     }
     else{
        TimeOutForKeyPress --;
-        if (TimeOutForKeyPress == 0){
+        if (TimeOutForKeyPress == 0 && KeyReg3 == PRESSED_STATE){
           KeyReg3 = NORMAL_STATE;
           subLongKeyProcess(button_pressed);
         }

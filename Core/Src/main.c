@@ -105,6 +105,7 @@ int main(void)
   setTimer2(1000);
   while (1)
   {
+	  countTimeOut();
 	  fsmState1();
 	  fsmState2();
 	  fsmState3();
