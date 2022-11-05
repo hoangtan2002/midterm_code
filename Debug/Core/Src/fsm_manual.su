@@ -1,4 +1,3 @@
 fsm_manual.c:9:6:fsmState1	8	static
 fsm_manual.c:26:6:fsmState2	8	static
-fsm_manual.c:39:6:countTimeOut	8	static
-fsm_manual.c:51:6:fsmState3	8	static
+fsm_manual.c:40:6:fsmState3	8	static
